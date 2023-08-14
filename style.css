@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    margin: 15px;
+
+}
+
+.container {
+    display: flex;
+    border: green 5px solid;
+    justify-content: center;
+    gap: 25px;
+}
+
+.container .main-info {
+    display: flex;
+    flex-direction: column;
+    border: red 5px solid;
+    width: 400px;
+    
+}
+
+.container img {
+    max-height: 400px;
+    max-width: 400px;
+}
+
