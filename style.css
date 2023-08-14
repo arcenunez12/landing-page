@@ -1,35 +1,97 @@
-.header {
-    display: flex;
-    justify-content: space-between;
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
 
-}
+.display-5 {
+    font-family: 'Sora', sans-serif;
+  }
+  
+  nav, h2, footer {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .navbar {
+    /* --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65); */
+    --bs-navbar-color: #fafafa;
+    --bs-navbar-hover-color: #e423cade;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+  }
+  
+  i.bi-house-door {
+    transition-duration: 0.22s;
+  }
+  
+  i.bi-house-door:hover {
+    color: #e423cade;
+  }
+  
+  .navbar-toggler {
+    background-color: white;
+  }
+  
+  
+  .hero-text {
+    min-height: 50vh;
+    /* border: red 5px solid; */
+  }
+  
+  
+  .bi-house-door {
+    color: #fafafa;
+    font-size: 30px;
+  }
+  
+  .bi-house-door:hover {
+    color: white;
+  }
+  
+  /* #hero-section {
+      background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+      url("img/background-img.jpeg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    padding: 20%;
+    text-align: center;
+    color: white;
+  } */
 
-.header ul {
-    list-style-type: none;
-    display: flex;
-    gap: 16px;
-    padding: 0;
-    margin: 15px;
+  #main-photo img{
+    width: 300px;
+  }
+  
+  #main-info p {
+    width: 30em;
+  }
 
-}
 
-.container {
-    display: flex;
-    border: green 5px solid;
-    justify-content: center;
-    gap: 25px;
-}
 
-.container .main-info {
-    display: flex;
-    flex-direction: column;
+  h1 {
+    /* font-size: ; */
+    font-family: 'Sora', sans-serif;
+    font-size: clamp(1rem, 2.5vw, 4rem);
+    /* font-size: 85%; */
+  }
+  
+  
+  
+  
+  #footer-section {
+    text-align: center;
+    background-color: #6247AA;
+    color: white;
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    padding: 25px;
+  }
+  
+  .hero-text {
+    padding-top: 100px;
+  }
+  
+  #quote-section div {
     border: red 5px solid;
-    width: 400px;
-    
-}
+    width: 25em;
+  }
 
-.container img {
-    max-height: 400px;
-    max-width: 400px;
-}
-
+  .container {
+    border: green 5px solid;
+  }
