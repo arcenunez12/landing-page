@@ -1,5 +1,10 @@
 # landing-page
-- Don’t forget to commit early & often! You can reference the Commit Message lesson here!
+- I created a Landing Page to practice Flex Box
+- I used HTML, CSS, and Bootstrap
+- Preview: https://arcenunez12.github.io/landing-page/
+
+- Instructions
+    - Don’t forget to commit early & often! You can reference the Commit Message lesson here!
 
 1. Download the design images and take a look at what you’re going to be creating here. Image One (Full Design), Image Two (Color and Fonts)
     - The font that’s being used in the images is roboto.
